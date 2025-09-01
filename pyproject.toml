@@ -1,0 +1,15 @@
+[project]
+name = "extract-images"
+version = "0.1.0"
+description = "Extract data URI images from a single HTML file into images/*.jpg and rewrite references."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pillow>=10.0.0",
+]
+
+[tool.uv]
+# Not publishing as a package; just managing env
+package = false
+
+
